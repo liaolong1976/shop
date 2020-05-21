@@ -1,0 +1,16 @@
+package com.hyzx.qbasic.domain.dao;
+
+import com.hyzx.qbasic.common.model.po.SpUser;
+import java.util.List;
+
+public interface SpUserMapper {
+    int deleteByPrimaryKey(Integer id);
+
+    int insert(SpUser record);
+
+    SpUser selectByPrimaryKey(Integer id);
+
+    List<SpUser> selectAll();
+
+    int updateByPrimaryKey(SpUser record);
+}

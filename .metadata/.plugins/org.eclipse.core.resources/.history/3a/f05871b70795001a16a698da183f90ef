@@ -1,0 +1,30 @@
+package com.shop.mapper;
+
+import com.shop.pojo.SpOrder;
+import com.shop.pojo.SpOrderExample;
+import java.util.List;
+import org.apache.ibatis.annotations.Param;
+
+public interface SpOrderMapper {
+    int countByExample(SpOrderExample example);
+
+    int deleteByExample(SpOrderExample example);
+
+    int deleteByPrimaryKey(Integer id);
+
+    int insert(SpOrder record);
+
+    int insertSelective(SpOrder record);
+
+    List<SpOrder> selectByExample(SpOrderExample example);
+
+    SpOrder selectByPrimaryKey(Integer id);
+
+    int updateByExampleSelective(@Param("record") SpOrder record, @Param("example") SpOrderExample example);
+
+    int updateByExample(@Param("record") SpOrder record, @Param("example") SpOrderExample example);
+
+    int updateByPrimaryKeySelective(SpOrder record);
+
+    int updateByPrimaryKey(SpOrder record);
+}

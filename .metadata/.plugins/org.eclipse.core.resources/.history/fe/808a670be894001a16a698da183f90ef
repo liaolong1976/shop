@@ -1,0 +1,16 @@
+package com.shop.interface;
+
+import com.shop.pojo.Spuser;
+import java.util.List;
+
+public interface SpuserMapper {
+    int deleteByPrimaryKey(Integer id);
+
+    int insert(Spuser record);
+
+    Spuser selectByPrimaryKey(Integer id);
+
+    List<Spuser> selectAll();
+
+    int updateByPrimaryKey(Spuser record);
+}

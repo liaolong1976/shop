@@ -1,0 +1,6 @@
+1588683800951	Move 'SqlMapConfig.xml' to 'spring'
+1588683805190	Move 'springmvc.xml' to 'spring'
+1588683819363	Move 'applicationContext-trans.xml' to 'spring'
+1588683824708	Move 'applicationContext-service.xml' to 'spring'
+1588683837159	Move 'applicationContext-dao.xml' to 'spring'
+1588683840369	Move 'SqlMapConfig.xml' to 'mybatis'

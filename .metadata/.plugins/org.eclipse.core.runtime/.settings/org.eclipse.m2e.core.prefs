@@ -1,0 +1,6 @@
+eclipse.m2.defaultRuntime=leo
+eclipse.m2.runtimes=leo
+eclipse.m2.runtimesNodes/leo/location=/Users/leo/maven/apache-maven-3.6.3
+eclipse.m2.runtimesNodes/leo/type=EXTERNAL
+eclipse.m2.userSettingsFile=/Users/leo/maven/apache-maven-3.6.3/conf/settings.xml
+eclipse.preferences.version=1
