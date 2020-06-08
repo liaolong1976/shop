@@ -1,9 +1,15 @@
 package com.shop.pojo;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class Order {
-    private Integer id;
+public class Order implements Serializable{
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Integer id;
 
     private String ordercode;
 
